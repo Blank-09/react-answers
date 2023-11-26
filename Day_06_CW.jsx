@@ -1,6 +1,6 @@
-DAY 6 CLASSWORK
+// DAY 6 CLASSWORK
 
-QN 1
+// QN 1
 
 import React from 'react'
 import ThemeProvider from './components/ThemeProvider'

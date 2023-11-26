@@ -13,7 +13,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const Home = () => (
   <Container>
-    <Paper elevation={3} sx={{ padding: 2, marginTop: 2 }}>
+    <Paper elevation={0} variant="outlined" sx={{ p: 2, mt: 2 }}>
       <Typography variant="h2">Home Page</Typography>
       <Typography variant="body1">Welcome to the Home Page!</Typography>
     </Paper>
@@ -22,7 +22,7 @@ const Home = () => (
 
 const About = () => (
   <Container>
-    <Paper elevation={3} sx={{ padding: 2, marginTop: 2 }}>
+    <Paper elevation={0} variant="outlined" sx={{ p: 2, mt: 2 }}>
       <Typography variant="h2">About Page</Typography>
       <Typography variant="body1">
         Learn more about us on the About Page.
@@ -33,7 +33,7 @@ const About = () => (
 
 const Contact = () => (
   <Container>
-    <Paper elevation={3} sx={{ padding: 2, marginTop: 2 }}>
+    <Paper elevation={0} variant="outlined" sx={{ p: 2, mt: 2 }}>
       <Typography variant="h2">Contact Page</Typography>
       <Typography variant="body1">
         Contact us through the Contact Page.
