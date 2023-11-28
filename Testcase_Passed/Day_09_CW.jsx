@@ -109,7 +109,7 @@ export default Singer;
 // App.js
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Navbar from './Navbar';
 import Singer from './Singer';
@@ -119,11 +119,11 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Route path="/singers" component={Singer} />
-        <Route path="/albums" component={Album} />
-        <Route path="/" exact component={Home} />
-      </Switch>
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/singers" element={<Singer />} />
+        <Route path="/albums" element={<Album />} />
+      </Routes>
     </Router>
   );
 }
