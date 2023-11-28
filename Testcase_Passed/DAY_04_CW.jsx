@@ -17,7 +17,7 @@
 
 // FruitSurvey.js
 import React, { useState } from "react";
-import { TextField, Autocomplete, Button } from "@mui/material";
+import { TextField, Autocomplete, Button, Box } from "@mui/material";
 
 const Fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry"];
 
